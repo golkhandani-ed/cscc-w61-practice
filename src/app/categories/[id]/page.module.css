@@ -1,0 +1,32 @@
+.category-details__container {
+  padding: 32px 0;
+}
+
+.category-details__header {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.category-details__header-content {
+  color: var(--secondary);
+}
+
+.category-details__header img {
+  flex: 2;
+  width: 100%;
+  border-radius: var(--border-radius);
+  filter: drop-shadow(4px 4px 8px rgba(103, 67, 1, 0.932));
+}
+
+.category-details__foods {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}

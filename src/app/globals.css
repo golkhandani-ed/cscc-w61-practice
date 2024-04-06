@@ -1,0 +1,116 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --btn-height: 56px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 205, 204, 203;
+  /* Shade of orange */
+  --background-end-rgb: 255, 255, 255;
+
+  --primary: orange;
+  --on-primary: black;
+
+  --secondary: rgb(39, 25, 0);
+  --on-secondary: rgb(255, 255, 255);
+
+  --primary-glow: conic-gradient(from 180deg at 50% 50%,
+      #ffa50033 0deg,
+      /* Orange color */
+      #ffa50033 55deg,
+      #ffa50033 120deg,
+      #ffa50033 160deg,
+      transparent 360deg);
+  --secondary-glow: radial-gradient(rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0));
+
+  --tile-start-rgb: 255, 230, 204;
+  /* Shade of orange */
+  --tile-end-rgb: 255, 204, 153;
+  /* Shade of orange */
+  --tile-border: conic-gradient(#ffa50080,
+      /* Orange color */
+      #ffa50040,
+      #ffa50030,
+      #ffa50020,
+      #ffa50010,
+      #ffa50010,
+      #ffa50080);
+
+  --callout-rgb: 255, 238, 204;
+  /* Shade of orange */
+  --callout-border-rgb: 255, 153, 51;
+  /* Darker shade of orange */
+  --card-rgb: 255, 204, 153;
+  /* Shade of orange */
+  --card-border-rgb: 204, 102, 0;
+  /* Darker shade of orange */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 32px;
+  min-height: 100vh;
+}
+
+.link-button {
+  padding: 0 32px;
+  background-color: var(--secondary);
+  color: var(--on-secondary);
+
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  height: var(--btn-height);
+  line-height: var(--btn-height);
+}
+
+.logo {
+  filter: drop-shadow(4px 4px 8px rgba(255, 203, 107, 0.932));
+}
+
+.section-title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.footer {
+  height: 200px;
+  width: 100vw;
+  background-color: var(--secondary);
+  color: var(--on-secondary);
+  font-size: small;
+  text-align: center;
+  align-items: center;
+  line-height: 200px;
+}

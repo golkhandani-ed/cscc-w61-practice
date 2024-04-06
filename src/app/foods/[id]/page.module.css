@@ -1,0 +1,79 @@
+.food-details__container {
+  padding: 32px 0;
+}
+
+.food-details__header {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.food-details__header-content {
+  color: var(--secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.food-details__header img {
+  flex: 2;
+  width: 50%;
+  border-radius: var(--border-radius);
+  filter: drop-shadow(4px 4px 8px rgba(103, 67, 1, 0.932));
+}
+
+.order-details__container {
+  height: 400px;
+  width: 50%;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 16px;
+}
+
+
+.order-details__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+  margin-top: 32px;
+}
+
+.order-details__row:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.order-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter-btn {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: black;
+  color: aliceblue;
+  width: 32px;
+  height: 32px;
+}
+
+.counter-btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+.add-to-card-btn {
+  width: 100%;
+}

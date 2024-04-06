@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Appetizers",
+      "image": "http://localhost:3030/assets/images/category_1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Entrees",
+      "image": "http://localhost:3030/assets/images/category_2.jpg"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, tomatoes, basil, drizzled with balsamic glaze.",
+      "price": 8.99,
+      "image": "http://localhost:3030/assets/images/food_1.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Grilled Salmon",
+      "description": "Fresh Atlantic salmon, grilled to perfection, served with seasonal vegetables and mashed potatoes.",
+      "price": 18.99,
+      "image": "http://localhost:3030/assets/images/food_4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mushroom Risotto",
+      "description": "Creamy Arborio rice cooked with assorted mushrooms, finished with parmesan cheese and truffle oil.",
+      "price": 16.49,
+      "image": "http://localhost:3030/assets/images/food_5.jpg"
+    }
+  ],
+
+  "foods": [
+    {
+      "id": "1",
+      "category": "appetizers",
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, tomatoes, basil, drizzled with balsamic glaze.",
+      "price": 8.99,
+      "image": "http://localhost:3030/assets/images/food_1.jpg"
+    },
+    {
+      "id": "2",
+      "category": "appetizers",
+      "name": "Crispy Calamari",
+      "description": "Tender calamari rings, lightly fried, served with marinara sauce.",
+      "price": 10.49,
+      "image": "http://localhost:3030/assets/images/food_2.jpg"
+    },
+    {
+      "id": "3",
+      "category": "appetizers",
+      "name": "Vegetable Spring Rolls",
+      "description": "Crispy rolls filled with mixed vegetables, served with sweet chili sauce.",
+      "price": 7.99,
+      "image": "http://localhost:3030/assets/images/food_3.jpg"
+    },
+    {
+      "id": "4",
+      "category": "entrees",
+      "name": "Grilled Salmon",
+      "description": "Fresh Atlantic salmon, grilled to perfection, served with seasonal vegetables and mashed potatoes.",
+      "price": 18.99,
+      "image": "http://localhost:3030/assets/images/food_4.jpg"
+    },
+    {
+      "id": "5",
+      "category": "entrees",
+      "name": "Mushroom Risotto",
+      "description": "Creamy Arborio rice cooked with assorted mushrooms, finished with parmesan cheese and truffle oil.",
+      "price": 16.49,
+      "image": "http://localhost:3030/assets/images/food_5.jpg"
+    },
+    {
+      "id": "6",
+      "category": "entrees",
+      "name": "Sizzling Steak Fajitas",
+      "description": "Tender strips of marinated steak, grilled with bell peppers and onions.",
+      "price": 22.99,
+      "image": "http://localhost:3030/assets/images/food_6.jpg"
+    }
+  ]
+}
